@@ -5,6 +5,6 @@ services:
     environment:
     - GF_SERVER_ROOT_URL=http://localhost
     - GF_SECURITY_ADMIN_PASSWORD=123456
-    porta:
+    ports:
       - 3000:3000
     user:"104"
